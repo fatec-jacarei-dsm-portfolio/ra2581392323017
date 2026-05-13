@@ -70,56 +70,18 @@
     <section id="projetos" class="projetos">
       <h2 class="titulo">Projetos</h2>
       <div class="linha-decorativa"></div>
-      <p class="tipo-projeto">Projetos em Destaque</p>
+
+      <p class="tipo-projeto">Projetos Academicos</p>
       <div class="linha-decorativa-m"></div>
+      <div id="projetos-academicos-container" class="projetos-container"></div>
 
-      <div class="projeto">
-  <div class="projeto">
-  <div class="descricao-projeto">
-    <h3>🌊 Projeto Derivadores – IoT & Visualização em Tempo Real</h3>
-    <p>
-      Os derivadores são amplamente utilizados em estudos oceanográficos, como análise de correntes,<br>
-      dispersão de óleo e operações de resgate. Projetados para seguir as correntes locais, permitem o<br>
-      cálculo de velocidade e outros parâmetros cinemáticos e dinâmicos a partir de suas posições ao<br>
-      longo do tempo.<br><br>
-      Atualmente, a estrutura externa desses dispositivos tem sido construída de forma eficiente com<br>
-      impressoras 3D. No entanto, a carga útil — composta por localizador GPS e sistema de transmissão de<br>
-      dados via telefonia celular — ainda depende de soluções importadas. O desafio, portanto, é desenvolver<br>
-      uma solução própria baseada em IoT, que possibilite o rastreamento dos derivadores e ofereça uma<br>
-      interface gráfica para visualização em tempo real dos dados transmitidos.
-    </p>
-  </div>
-  <div class="projeto">
-    <div class="descricao-projeto">
-      <h3>🥗 Projeto Controle de Alimentação – App de Calorias</h3>
-      <p>
-        Aplicação voltada para o controle de alimentação e monitoramento de calorias ingeridas diariamente.<br>
-        Desenvolvido com React (Front-End) e TypeScript, integrando um banco de dados MongoDB para armazenamento<br>
-        dos dados dos usuários.<br><br>
-        O app permite cadastrar refeições, monitorar os macronutrientes, acompanhar a evolução e ter relatórios<br>
-        sobre hábitos alimentares, proporcionando uma gestão eficiente da saúde nutricional.
-      </p>
-    </div>
-    <div class="projeto">
-    <div class="descricao-projeto">
-      <h3>📚 Projeto Ensino Scrum – Front-End Educacional</h3>
-      <p>
-        Projeto desenvolvido com foco em ensinar de forma simples e interativa como funciona o framework Scrum.<br>
-        Criado utilizando HTML, CSS, JavaScript e TailwindCSS, todo o projeto é Front-End, buscando entregar uma<br>
-        experiência prática e didática para quem deseja compreender os papéis, cerimônias e artefatos do Scrum.<br><br>
-        A plataforma simula cenários reais, tornando o aprendizado mais dinâmico e acessível.
-      </p>
-    </div>
-
-</div>
-
+      <p class="tipo-projeto">Projetos Pessoais</p>
+      <div class="linha-decorativa-m"></div>
+      <div id="projetos-pessoais-container" class="projetos-container"></div>
     </section>
 
-    
-    </div>
-
     <section id="contato" class="contato">
-      <h2 class="titulo">https://www.youtube.com/shorts/InDE2IQwvqc</h2>
+      <h2 class="titulo">Contato</h2>
       <div class="linha-decorativa"></div>
       <div class="botoes-container">
         <a class="botao-contato" href="mailto:ming.renan@email.com" target="_blank">
@@ -137,6 +99,11 @@
   <footer class="rodape">
     <p>&copy; 2025 Renan Ming. Todos os direitos reservados.</p>
   </footer>
+
+  <div id="imagemModal" class="modal" aria-hidden="true">
+    <span class="fechar" aria-label="Fechar modal">&times;</span>
+    <img id="imgModal" class="modal-conteudo" src="" alt="Imagem ampliada de projeto" />
+  </div>
 
   <script src="src/script.js"></script>
 </body>
